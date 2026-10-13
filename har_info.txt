@@ -1,0 +1,62 @@
+https://spot.tangerangkab.go.id/kedinasan/piket/open_form
+id=&view=
+
+https://spot.tangerangkab.go.id/home/cari_pegawai/0
+cari=&nipp=&display=10&noncek=1&biro=031183000000000
+
+https://spot.tangerangkab.go.id/home/cari_pegawai/0
+biro=031183000000000&cari=MUHAMAD+LUTFI%2C+S.Kom&display=10&nipp=&manual=&noncek=1
+
+https://spot.tangerangkab.go.id/kedinasan/piket/getabsen
+tgl=10%2F02%2F2026&nip=199901062025041001
+
+https://a.mrktmtrcs.net/a
+{"l":{"d":"spot.tangerangkab.go.id","p":"/kedinasan/piket","s":"","h":""},"d":{"f":"d","o":"windows","ov":"10","b":"chrome","bv":"145"},"g":"en","s":"ewpeod7yiw.1772609448","e":[{"t":20,"n":"pv","c":1}]}
+
+https://spot.tangerangkab.go.id/kedinasan/piket/simpan
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="nama"
+
+199901062025041001 - MUHAMAD LUTFI, S.Kom
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="nip"
+
+199901062025041001
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="id"
+
+
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="tanggal_bp"
+
+10/02/2026
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="masuk"
+
+2026-02-10 07:50:48
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="telat"
+
+0:00:00
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="keluar"
+
+2026-02-10 16:06:11
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="cepat"
+
+0:00:00
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="tanggal"
+
+10/02/2026
+------WebKitFormBoundary3kqXBA53WaG2iwRZ
+Content-Disposition: form-data; name="keterangan"
+
+
+------WebKitFormBoundary3kqXBA53WaG2iwRZ--
+
+
+https://spot.tangerangkab.go.id/kedinasan/piket/pagging/0
+kunkom=11&kununit=83&unit1=&unit2=&unit3=&unit4=&bulan=3&tahun=2026&status=1&nama=
+

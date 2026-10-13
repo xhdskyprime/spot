@@ -1,0 +1,3694 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta charset="utf-8" />
+		<title>SPOT Kabupaten Tangerang</title>
+		<link rel="icon" type="image/png" href="https://spot.tangerangkab.go.id/assets/img/kabtang.png" />
+		
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/bootstrap.css" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/font-awesome.css" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/datepicker.css" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/bootstrap-timepicker.css" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/ace-fonts.css" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/ace-skins.css" />
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/css/style_me.css" />
+		<script type="text/javascript">
+			var NULL = null;
+		</script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/ace-extra.js"></script>
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='https://spot.tangerangkab.go.id/assets/js/jquery.js'>"+"<"+"/script>");
+		</script>
+		<script type="text/javascript">
+			if('ontouchstart' in document.documentElement) document.write("<script src='https://spot.tangerangkab.go.id/assets/js/jquery.mobile.custom.js'>"+"<"+"/script>");
+		</script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/bootstrap.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/bootbox.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/ace/ace.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/ace/ace.sidebar.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/date-time/bootstrap-datepicker.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/date-time/bootstrap-timepicker.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/jquery.maskedinput.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/amcharts/amcharts.js" type="text/javascript"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/amcharts/serial.js" type="text/javascript"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/amcharts/plugins/export/export.min.js"></script>
+		<script src="https://spot.tangerangkab.go.id/assets/js/jQuery/jquery.form.js"></script>
+		<link rel="stylesheet" href="https://spot.tangerangkab.go.id/assets/amcharts/plugins/export/export.css" type="text/css" media="all" />
+
+		<style>
+		.modal-header{
+			background-color: #65b688; //#2c6aa0
+			border-bottom: 0 none;
+			color: #fff;
+			padding: 13px 16px 14px
+		}
+		</style>
+	</head>
+
+	<body class="skin-3" onload="startTime()" onClick="getClear();">
+				<div id="navbar" class="navbar navbar-default navbar-collapse h-navbar">
+			<script type="text/javascript">
+				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-header pull-left">
+					<a href="#" class="navbar-brand">
+						<small>
+							<i class="fa fa-calendar"></i>
+							Sistem Presensi Online Terpadu
+						</small>
+					</a>
+					<button class="pull-right navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-buttons,.navbar-menu">
+						<span class="sr-only">Toggle sidebar</span>
+
+						<span class="icon-bar"></span>
+
+						<span class="icon-bar"></span>
+
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<div class="navbar-buttons navbar-header pull-right  collapse navbar-collapse" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="light-blue user-min">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="https://spot.tangerangkab.go.id/assets/avatars/user.jpg" alt=""/>								<span class="user-info">
+									Murnalisa Dani, Sap, M.si								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="javascript:;" onClick="getPassword('352');">
+										<i class="ace-icon fa fa-cog"></i>
+										Ubah Password
+									</a>
+								</li>
+								<li>
+									<a href="https://spot.tangerangkab.go.id/main/logout">
+										<i class="ace-icon fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+			<div id="sidebar" class="sidebar responsive">
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+				</script>
+				<ul class="nav nav-list">
+					<li class="hover">
+						<a href="https://spot.tangerangkab.go.id/home">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Dashboard </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+					<li ><a href="" class="dropdown-toggle"><i class="menu-icon fa fa-calendar"></i>
+								 <span class="menu-text"> Kehadiran </span>
+								 <b class="arrow fa fa-angle-down"></b>
+								 </a><b class="arrow"></b><ul class="submenu nav-show"><li >
+									<a href="https://spot.tangerangkab.go.id/kehadiran/harian">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Manual Harian</span>
+									</a>
+									<b class="arrow"></b></li><li >
+									<a href="https://spot.tangerangkab.go.id/kehadiran/upacara">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Upacara</span>
+									</a>
+									<b class="arrow"></b></li><li >
+									<a href="https://spot.tangerangkab.go.id/kehadiran/logabseni">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Log Absensi</span>
+									</a>
+									<b class="arrow"></b></li></ul></li><li ><a href="" class="dropdown-toggle"><i class="menu-icon fa fa-briefcase"></i>
+								 <span class="menu-text"> Kedinasan </span>
+								 <b class="arrow fa fa-angle-down"></b>
+								 </a><b class="arrow"></b><ul class="submenu nav-show"><li >
+									<a href="https://spot.tangerangkab.go.id/kedinasan/dinas">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Dinas Luar</span>
+									</a>
+									<b class="arrow"></b></li><li >
+									<a href="https://spot.tangerangkab.go.id/kedinasan/tugas">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Tugas Belajar</span>
+									</a>
+									<b class="arrow"></b></li><li >
+									<a href="https://spot.tangerangkab.go.id/kedinasan/diklat">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Diklat</span>
+									</a>
+									<b class="arrow"></b></li><li >
+									<a href="https://spot.tangerangkab.go.id/kedinasan/piket">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Bebas Piket</span>
+									</a>
+									<b class="arrow"></b></li><li >
+									<a href="https://spot.tangerangkab.go.id/kedinasan/wfh">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Work From Home (WFH)</span>
+									</a>
+									<b class="arrow"></b></li></ul></li><li ><a href="" class="dropdown-toggle"><i class="menu-icon fa fa-file"></i>
+								 <span class="menu-text"> Laporan </span>
+								 <b class="arrow fa fa-angle-down"></b>
+								 </a><b class="arrow"></b><ul class="submenu nav-show"><li >
+									<a class="dropdown-toggle" href="javascript:;">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Laporan Kehadiran </span>
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+									<b class="arrow"></b><ul class="submenu nav-show"><li >
+											<a class="" href="https://spot.tangerangkab.go.id/laporan/kehadiran/harian">
+												<i class="menu-icon icon-double-angle-right"></i>
+												<span class="menu-text"> Laporan Harian </span>
+											</a>
+											<b class="arrow"></b></li><li >
+											<a class="" href="https://spot.tangerangkab.go.id/laporan/kehadiran/bulanan">
+												<i class="menu-icon icon-double-angle-right"></i>
+												<span class="menu-text"> Laporan Bulanan </span>
+											</a>
+											<b class="arrow"></b></li><li >
+											<a class="" href="https://spot.tangerangkab.go.id/laporan/kehadiran/opd">
+												<i class="menu-icon icon-double-angle-right"></i>
+												<span class="menu-text"> Laporan Bulanan OPD </span>
+											</a>
+											<b class="arrow"></b></li></ul></li><li >
+									<a class="dropdown-toggle" href="javascript:;">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Rekapitulasi </span>
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+									<b class="arrow"></b><ul class="submenu nav-show"><li >
+											<a class="" href="https://spot.tangerangkab.go.id/laporan/rekapitulasi/harian">
+												<i class="menu-icon icon-double-angle-right"></i>
+												<span class="menu-text"> Harian </span>
+											</a>
+											<b class="arrow"></b></li><li >
+											<a class="" href="https://spot.tangerangkab.go.id/laporan/rekapitulasi/bulanan">
+												<i class="menu-icon icon-double-angle-right"></i>
+												<span class="menu-text"> Bulanan </span>
+											</a>
+											<b class="arrow"></b></li></ul></li><li >
+									<a href="https://spot.tangerangkab.go.id/laporan/upacara">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Laporan Upacara</span>
+									</a>
+									<b class="arrow"></b></li></ul></li><li class="active open"><a href="" class="dropdown-toggle"><i class="menu-icon fa fa-cogs"></i>
+								 <span class="menu-text"> Utilitas </span>
+								 <b class="arrow fa fa-angle-down"></b>
+								 </a><b class="arrow"></b><ul class="submenu nav-show"><li >
+									<a href="https://spot.tangerangkab.go.id/utilitas/data_mesin">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Mesin Absensi</span>
+									</a>
+									<b class="arrow"></b></li><li class="active open">
+									<a class="dropdown-toggle" href="javascript:;">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Setting Kehadiran </span>
+										<b class="arrow fa fa-angle-down"></b>
+									</a>
+									<b class="arrow"></b><ul class="submenu nav-show"><li class="active">
+											<a class="" href="https://spot.tangerangkab.go.id/utilitas/kehadiran/shift">
+												<i class="menu-icon icon-double-angle-right"></i>
+												<span class="menu-text"> Jadwal Shift </span>
+											</a>
+											<b class="arrow"></b></li></ul></li><li >
+									<a href="https://spot.tangerangkab.go.id/utilitas/sinkronisasi">
+										<i class="menu-icon icon-double-angle-right"></i>
+										<span class="menu-text"> Sinkronisasi</span>
+									</a>
+									<b class="arrow"></b></li></ul></li>				</ul>
+				<!-- #section:basics/sidebar.layout.minimize -->
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
+					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+
+				<!-- /section:basics/sidebar.layout.minimize -->
+				<script type="text/javascript">
+					try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+				</script>
+			</div>
+			
+			<div class="main-content">
+				<div class="main-content-inner">
+					<div class="page-content">
+						<div class="ace-settings-container" id="ace-settings-container" >
+							<div class="btn btn-app btn-danger btn-xs" id="ace-settings-btn" style="margin-right: 20px; border-radius: 0; width: auto; padding: 5px 10px;">
+								<i class="ace-icon fa fa-calendar bigger-160" style="float: left;"></i> <span style="font-size: 14px; float: left; padding-left: 5px; line-height: 16px; text-align: left;">05 Maret 2026 <br> <span style="font-size: 12px;">Kamis, <span id="txt"></span></span> </span>
+
+							</div>
+
+						</div>
+						<div class="page-header">
+							<h1>
+								Setting Jadwal Shift Pegawai							</h1>
+						</div>
+						
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="display_data">
+<div class="row-fluid" id="filter-data" style="overflow:auto;">
+	<div class="box box-color box-bordered">
+	<div class="box-title" style="margin-top:0;">
+		<h3><i class="fa fa-list-ul"></i> Data Selection</h3>
+	</div>
+	<div class="box-content" style="padding:5px;overflow:auto;">
+		<div class="row-fluid">
+			<div class="span6">
+			<div class="row-fluid">
+					<div class="span3">SKPD 1</div>
+					<div class="span9">
+						<select name="kunkom_scr" id="kunkom_scr" class="input" style="margin-bottom:2px;width:100%;">
+							<option value="11">Dinas Kesehatan</option>
+						</select>
+					</div>
+				</div><div class="row-fluid">
+					<div class="span3">SKPD 2</div>
+					<div class="span9">
+						<select name="kununit_scr" id="kununit_scr" class="input" style="margin-bottom:2px;width:100%;">
+							<option value="83">UPTD Rumah Sakit Umum Daerah Tigaraksa</option>
+						</select>
+					</div>
+				</div><div class="row-fluid">
+					<div class="span3">SKPD 3</div>
+					<div class="span9"><select name="unit1_scr" id="unit1_scr" class="input" style="margin-bottom:2px;width:100%;" onChange="getUnitKerja(this.value,3);">
+<option value="" selected="selected">- Pilih SKPD 3 -</option>
+</select></div>
+				</div><div class="row-fluid">
+					<div class="span3">SKPD 4</div>
+					<div class="span9"><select name="unit2_scr" id="unit2_scr" class="input" style="margin-bottom:2px;width:100%;" onChange="getUnitKerja(this.value,4);">
+<option value="" selected="selected">- Pilih SKPD 4 -</option>
+</select></div>
+				</div><div class="row-fluid">
+					<div class="span3">SKPD 5</div>
+					<div class="span9"><select name="unit3_scr" id="unit3_scr" onChange="getUnitKerja(this.value,5);" class="input" style="margin-bottom:2px;width:100%;">
+<option value="" selected="selected">- Pilih SKPD 5 -</option>
+</select></div>
+				</div><div class="row-fluid">
+					<div class="span3">SKPD 6</div>
+					<div class="span9"><select name="unit4_scr" id="unit4_scr" class="input" style="margin-bottom:2px;width:100%;">
+<option value="" selected="selected">- Pilih SKPD 6 -</option>
+</select></div>
+				</div>			</div>
+			<div class="span6">
+				<div class="row-fluid">
+					<div class="span3">Status Pegawai</div>
+					<div class="span9">
+						<select name="status_scr" id="status_scr" class="input" style="margin-bottom:2px;">
+<option value="1" selected="selected">Aktif</option>
+</select>						
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span3">Periode</div>
+					<div class="span9">
+						<div class="input-append"  style="margin-bottom:0;">
+							<input type="text" class="input-medium datepick" data-date-format="MM yyyy" name="tgl_scr" id="tgl_scr" value="March 2026" readonly />
+							<span class="add-on" style="cursor:pointer;padding: 1px 4px">
+								<i class="fa fa-calendar"></i>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="span3">NIP / Nama</div>
+					<div class="span9">
+						<input name="nama_scr" id="nama_scr" type="text" class="input" style="margin-bottom:2px;width:100%;" value="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(function(){
+	$("#nama_scr").keypress(function(e){
+		var key = null;
+        key = (e.keyCode ? e.keyCode : e.which);
+		if(key==13){
+			Proses();
+		}
+	});
+	
+	$('.datepick').datepicker({
+		startView: 1,
+		minViewMode: 1,
+		autoclose: true
+	}).next().on('click', function(){
+		$(this).prev().focus();
+	});
+});
+
+function getUnitKerja(v,a)
+{
+	if(v=='' || v=='00' || v == '000'){
+		if(a==1){
+			$('#kununit_scr').empty(); 
+			$('#unit1_scr').empty();
+			$('#unit2_scr').empty();
+			$('#unit3_scr').empty();$('#unit4_scr').empty();
+			$('#kununit_scr').append('<option value="">- Pilih SKPD 2 -</option>'); 
+			$('#unit1_scr').append('<option value="">- Pilih SKPD 3 -</option>'); 
+			$('#unit2_scr').append('<option value="">- Pilih SKPD 4 -</option>'); 
+			$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+		}
+		
+		if(a==2){
+			$('#unit1_scr').empty();
+			$('#unit2_scr').empty();
+			$('#unit3_scr').empty();$('#unit4_scr').empty();
+			$('#unit1_scr').append('<option value="">- Pilih SKPD 3 -</option>'); 
+			$('#unit2_scr').append('<option value="">- Pilih SKPD 4 -</option>'); 
+			$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+		}
+		
+		if(a==3){
+			$('#unit2_scr').empty();
+			$('#unit3_scr').empty();$('#unit4_scr').empty();
+			$('#unit2_scr').append('<option value="">- Pilih SKPD 4 -</option>'); 
+			$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>');  
+		}
+		
+		if(a==4){
+			$('#unit3_scr').empty();$('#unit4_scr').empty(); 
+			$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+		}
+		
+		if(a==5){
+			$('#unit4_scr').empty(); 
+			$('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+		}
+	
+	}else{
+		$.ajax({
+			url     : 'https://spot.tangerangkab.go.id/home/get_unit_kerja',
+			data    : { 
+						'param': a,
+						'kunkom':$('#kunkom_scr').val(),
+						'kununit':$('#kununit_scr').val(),
+						'unit1':$('#unit1_scr').val(),
+						'unit2':$('#unit2_scr').val(),
+						'unit3':$('#unit3_scr').val(),'unit4':$('#unit4_scr').val()
+					  },
+			dataType: 'json',
+			type    : 'POST',
+			success : function(data){
+				if(a==1){
+					$('#kununit_scr').empty(); 
+					$('#unit1_scr').empty();
+					$('#unit2_scr').empty();
+					$('#unit3_scr').empty();$('#unit4_scr').empty();
+					$('#kununit_scr').append(data); 
+					$('#unit1_scr').append('<option value="">- Pilih SKPD 3 -</option>'); 
+					$('#unit2_scr').append('<option value="">- Pilih SKPD 4 -</option>'); 
+					$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+				}
+				
+				if(a==2){
+					$('#unit1_scr').empty();
+					$('#unit2_scr').empty();
+					$('#unit3_scr').empty();$('#unit4_scr').empty();
+					$('#unit1_scr').append(data); 
+					$('#unit2_scr').append('<option value="">- Pilih SKPD 4 -</option>'); 
+					$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+				}
+				
+				if(a==3){
+					$('#unit2_scr').empty();
+					$('#unit3_scr').empty();$('#unit4_scr').empty();
+					$('#unit2_scr').append(data); 
+					$('#unit3_scr').append('<option value="">- Pilih SKPD 5 -</option>'); $('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+				}
+				
+				if(a==4){
+					$('#unit3_scr').empty();$('#unit4_scr').empty();
+					$('#unit3_scr').append(data); 
+					$('#unit4_scr').append('<option value="">- Pilih SKPD 6 -</option>'); 
+				}
+				
+				if(a==5){
+					$('#unit4_scr').empty();
+					$('#unit4_scr').append(data); 
+				}
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {
+				if (XMLHttpRequest.status === 200) {
+					location.href = 'https://spot.tangerangkab.go.id/utilitas/kehadiran/shift';
+				}else{
+					unloading(); bootbox.alert('Maaf, Terjadi kesalahan dalam sistem!!');
+				}
+			}
+		});
+	}
+}
+</script>
+</div>
+<div class="row-fluid" style="padding-top:10px;">
+	<span class="btn btn-small btn-primary" onClick="Proses();"><i class="fa fa-cog"></i> Proses Cari</span>
+	<span class="btn btn-small btn-danger" onClick="window.location='https://spot.tangerangkab.go.id/utilitas/kehadiran/shift'"><i class="fa fa-refresh"></i> Reset</span>
+</div>
+<div class="row-fluid">
+	<div class="box box-color box-bordered lightgrey">
+		<div class="box-title">
+			<h3>
+				<i class="fa fa-list-alt"></i>
+				Daftar Pegawai Shift
+			</h3>
+		</div>
+		<div class="box-content nopadding">
+			<div id="list-data" style="overflow:auto;">
+									<div class="wrapper" role="grid" style="overflow:auto;font-size:11px;">
+						<table class="table table-bordered table-hover table-nomargin table-striped dataTable dataTable-reorder" style="width:100%" id="data-tabel">
+						<thead>
+							<tr>
+								<th width="50px">No</th>
+								<th>NIP<br>Nama</th>
+								<th>Tipe</th>
+																<th>1<br>M</th>
+																<th>2<br>S</th>
+																<th>3<br>S</th>
+																<th>4<br>R</th>
+																<th>5<br>K</th>
+																<th>6<br>J</th>
+																<th>7<br>S</th>
+																<th>8<br>M</th>
+																<th>9<br>S</th>
+																<th>10<br>S</th>
+																<th>11<br>R</th>
+																<th>12<br>K</th>
+																<th>13<br>J</th>
+																<th>14<br>S</th>
+																<th>15<br>M</th>
+																<th>16<br>S</th>
+																<th>17<br>S</th>
+																<th>18<br>R</th>
+																<th>19<br>K</th>
+																<th>20<br>J</th>
+																<th>21<br>S</th>
+																<th>22<br>M</th>
+																<th>23<br>S</th>
+																<th>24<br>S</th>
+																<th>25<br>R</th>
+																<th>26<br>K</th>
+																<th>27<br>J</th>
+																<th>28<br>S</th>
+																<th>29<br>M</th>
+																<th>30<br>S</th>
+																<th>31<br>S</th>
+															</tr>
+						</thead>
+						<tbody>
+																<tr>
+										<td>1.</td>
+										<td>196203201988011002<br>
+										dr. EDDY TOYNBEE, SpOG</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196203201988011002"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196203201988011002"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196203201988011002"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2" selected="selected">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196203201988011002"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3" selected="selected">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196203201988011002"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196203201988011002"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196203201988011002"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196203201988011002"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196203201988011002"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196203201988011002"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196203201988011002"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196203201988011002"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196203201988011002"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196203201988011002"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196203201988011002"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196203201988011002"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196203201988011002"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196203201988011002"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196203201988011002"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196203201988011002"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196203201988011002"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196203201988011002"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196203201988011002"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196203201988011002"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196203201988011002"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196203201988011002"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196203201988011002"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196203201988011002"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196203201988011002"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196203201988011002"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196203201988011002"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>2.</td>
+										<td>196205101988121001<br>
+										dr. MAMAN KUSMANA RUSLAN, Sp.An.</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196205101988121001"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196205101988121001"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196205101988121001"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196205101988121001"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196205101988121001"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196205101988121001"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196205101988121001"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196205101988121001"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196205101988121001"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196205101988121001"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196205101988121001"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196205101988121001"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196205101988121001"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196205101988121001"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196205101988121001"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196205101988121001"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196205101988121001"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196205101988121001"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196205101988121001"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196205101988121001"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196205101988121001"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196205101988121001"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196205101988121001"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196205101988121001"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196205101988121001"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196205101988121001"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196205101988121001"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196205101988121001"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196205101988121001"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196205101988121001"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196205101988121001"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>3.</td>
+										<td>196206121989111001<br>
+										dr. HARDJA PRIATNA, Sp.JP</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196206121989111001"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196206121989111001"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196206121989111001"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196206121989111001"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196206121989111001"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196206121989111001"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196206121989111001"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196206121989111001"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196206121989111001"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196206121989111001"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196206121989111001"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196206121989111001"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196206121989111001"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196206121989111001"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196206121989111001"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196206121989111001"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196206121989111001"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196206121989111001"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196206121989111001"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196206121989111001"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196206121989111001"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196206121989111001"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196206121989111001"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196206121989111001"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196206121989111001"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196206121989111001"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196206121989111001"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196206121989111001"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196206121989111001"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196206121989111001"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196206121989111001"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>4.</td>
+										<td>196306131989112001<br>
+										dr. DEWI LOKIDA, Sp.PK</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196306131989112001"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196306131989112001"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196306131989112001"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196306131989112001"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196306131989112001"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196306131989112001"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196306131989112001"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196306131989112001"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196306131989112001"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196306131989112001"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196306131989112001"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196306131989112001"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196306131989112001"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196306131989112001"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196306131989112001"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196306131989112001"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196306131989112001"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196306131989112001"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196306131989112001"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196306131989112001"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196306131989112001"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196306131989112001"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196306131989112001"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196306131989112001"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196306131989112001"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196306131989112001"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196306131989112001"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196306131989112001"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196306131989112001"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196306131989112001"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196306131989112001"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>5.</td>
+										<td>196308261989031006<br>
+										dr. PUDJO RAHASTO, Sp.JP.</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196308261989031006"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196308261989031006"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1" selected="selected">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196308261989031006"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2" selected="selected">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196308261989031006"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3" selected="selected">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196308261989031006"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196308261989031006"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196308261989031006"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196308261989031006"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196308261989031006"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196308261989031006"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196308261989031006"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196308261989031006"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196308261989031006"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196308261989031006"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196308261989031006"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196308261989031006"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196308261989031006"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196308261989031006"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196308261989031006"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196308261989031006"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196308261989031006"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196308261989031006"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196308261989031006"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196308261989031006"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196308261989031006"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196308261989031006"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196308261989031006"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196308261989031006"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196308261989031006"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196308261989031006"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196308261989031006"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>6.</td>
+										<td>196308301989112001<br>
+										dr. FALENTINA PANJAITAN, Sp.A.</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196308301989112001"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196308301989112001"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1" selected="selected">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196308301989112001"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2" selected="selected">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196308301989112001"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3" selected="selected">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196308301989112001"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196308301989112001"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196308301989112001"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196308301989112001"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196308301989112001"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196308301989112001"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196308301989112001"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196308301989112001"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196308301989112001"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196308301989112001"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196308301989112001"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196308301989112001"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196308301989112001"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196308301989112001"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196308301989112001"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196308301989112001"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196308301989112001"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196308301989112001"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196308301989112001"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196308301989112001"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196308301989112001"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196308301989112001"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196308301989112001"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196308301989112001"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196308301989112001"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196308301989112001"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196308301989112001"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>7.</td>
+										<td>196309271989022003<br>
+										dr. CHAKRAWATI HAYUNINGSIH, Sp.PK</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196309271989022003"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196309271989022003"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196309271989022003"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196309271989022003"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196309271989022003"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196309271989022003"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196309271989022003"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196309271989022003"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196309271989022003"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196309271989022003"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196309271989022003"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196309271989022003"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196309271989022003"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196309271989022003"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196309271989022003"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196309271989022003"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196309271989022003"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196309271989022003"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196309271989022003"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196309271989022003"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196309271989022003"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196309271989022003"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196309271989022003"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196309271989022003"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196309271989022003"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196309271989022003"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196309271989022003"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196309271989022003"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196309271989022003"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196309271989022003"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196309271989022003"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>8.</td>
+										<td>196403231990111002<br>
+										dr. ISMON K, Sp.B</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196403231990111002"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196403231990111002"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1" selected="selected">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196403231990111002"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2" selected="selected">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196403231990111002"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3" selected="selected">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196403231990111002"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196403231990111002"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196403231990111002"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196403231990111002"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196403231990111002"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196403231990111002"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196403231990111002"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196403231990111002"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196403231990111002"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196403231990111002"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196403231990111002"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196403231990111002"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196403231990111002"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196403231990111002"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196403231990111002"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196403231990111002"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196403231990111002"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196403231990111002"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196403231990111002"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196403231990111002"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196403231990111002"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196403231990111002"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196403231990111002"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196403231990111002"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196403231990111002"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196403231990111002"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196403231990111002"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>9.</td>
+										<td>196404061991021001<br>
+										dr. I NYOMAN SUDIRGA, Sp.Pd</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196404061991021001"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196404061991021001"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196404061991021001"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196404061991021001"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196404061991021001"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196404061991021001"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196404061991021001"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196404061991021001"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196404061991021001"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196404061991021001"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196404061991021001"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196404061991021001"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196404061991021001"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196404061991021001"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196404061991021001"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196404061991021001"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196404061991021001"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196404061991021001"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196404061991021001"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196404061991021001"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196404061991021001"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196404061991021001"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196404061991021001"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196404061991021001"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196404061991021001"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196404061991021001"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196404061991021001"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196404061991021001"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196404061991021001"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196404061991021001"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196404061991021001"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+																<tr>
+										<td>10.</td>
+										<td>196411141991022002<br>
+										dr. HENNY HERLINA, SpA</td>
+										<td>Dokter Spesialis RSUD Kab Tangerang</td>
+																				<td>
+										<input type="hidden" id="nip1" value="196411141991022002"><input type="hidden" id="tgl1" value="2026-03-01"><input type="hidden" id="hk1" value="29"><select name="hari" id="hari1" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip2" value="196411141991022002"><input type="hidden" id="tgl2" value="2026-03-02"><input type="hidden" id="hk2" value="29"><select name="hari" id="hari2" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1" selected="selected">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip3" value="196411141991022002"><input type="hidden" id="tgl3" value="2026-03-03"><input type="hidden" id="hk3" value="29"><select name="hari" id="hari3" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2" selected="selected">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip4" value="196411141991022002"><input type="hidden" id="tgl4" value="2026-03-04"><input type="hidden" id="hk4" value="29"><select name="hari" id="hari4" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value=""></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3" selected="selected">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip5" value="196411141991022002"><input type="hidden" id="tgl5" value="2026-03-05"><input type="hidden" id="hk5" value="29"><select name="hari" id="hari5" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip6" value="196411141991022002"><input type="hidden" id="tgl6" value="2026-03-06"><input type="hidden" id="hk6" value="29"><select name="hari" id="hari6" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip7" value="196411141991022002"><input type="hidden" id="tgl7" value="2026-03-07"><input type="hidden" id="hk7" value="29"><select name="hari" id="hari7" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip8" value="196411141991022002"><input type="hidden" id="tgl8" value="2026-03-08"><input type="hidden" id="hk8" value="29"><select name="hari" id="hari8" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip9" value="196411141991022002"><input type="hidden" id="tgl9" value="2026-03-09"><input type="hidden" id="hk9" value="29"><select name="hari" id="hari9" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip10" value="196411141991022002"><input type="hidden" id="tgl10" value="2026-03-10"><input type="hidden" id="hk10" value="29"><select name="hari" id="hari10" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip11" value="196411141991022002"><input type="hidden" id="tgl11" value="2026-03-11"><input type="hidden" id="hk11" value="29"><select name="hari" id="hari11" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip12" value="196411141991022002"><input type="hidden" id="tgl12" value="2026-03-12"><input type="hidden" id="hk12" value="29"><select name="hari" id="hari12" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip13" value="196411141991022002"><input type="hidden" id="tgl13" value="2026-03-13"><input type="hidden" id="hk13" value="29"><select name="hari" id="hari13" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip14" value="196411141991022002"><input type="hidden" id="tgl14" value="2026-03-14"><input type="hidden" id="hk14" value="29"><select name="hari" id="hari14" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip15" value="196411141991022002"><input type="hidden" id="tgl15" value="2026-03-15"><input type="hidden" id="hk15" value="29"><select name="hari" id="hari15" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip16" value="196411141991022002"><input type="hidden" id="tgl16" value="2026-03-16"><input type="hidden" id="hk16" value="29"><select name="hari" id="hari16" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip17" value="196411141991022002"><input type="hidden" id="tgl17" value="2026-03-17"><input type="hidden" id="hk17" value="29"><select name="hari" id="hari17" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip18" value="196411141991022002"><input type="hidden" id="tgl18" value="2026-03-18"><input type="hidden" id="hk18" value="29"><select name="hari" id="hari18" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip19" value="196411141991022002"><input type="hidden" id="tgl19" value="2026-03-19"><input type="hidden" id="hk19" value="29"><select name="hari" id="hari19" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip20" value="196411141991022002"><input type="hidden" id="tgl20" value="2026-03-20"><input type="hidden" id="hk20" value="29"><select name="hari" id="hari20" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="0">D</option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip21" value="196411141991022002"><input type="hidden" id="tgl21" value="2026-03-21"><input type="hidden" id="hk21" value="29"><select name="hari" id="hari21" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip22" value="196411141991022002"><input type="hidden" id="tgl22" value="2026-03-22"><input type="hidden" id="hk22" value="29"><select name="hari" id="hari22" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip23" value="196411141991022002"><input type="hidden" id="tgl23" value="2026-03-23"><input type="hidden" id="hk23" value="29"><select name="hari" id="hari23" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip24" value="196411141991022002"><input type="hidden" id="tgl24" value="2026-03-24"><input type="hidden" id="hk24" value="29"><select name="hari" id="hari24" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip25" value="196411141991022002"><input type="hidden" id="tgl25" value="2026-03-25"><input type="hidden" id="hk25" value="29"><select name="hari" id="hari25" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip26" value="196411141991022002"><input type="hidden" id="tgl26" value="2026-03-26"><input type="hidden" id="hk26" value="29"><select name="hari" id="hari26" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip27" value="196411141991022002"><input type="hidden" id="tgl27" value="2026-03-27"><input type="hidden" id="hk27" value="29"><select name="hari" id="hari27" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip28" value="196411141991022002"><input type="hidden" id="tgl28" value="2026-03-28"><input type="hidden" id="hk28" value="29"><select name="hari" id="hari28" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip29" value="196411141991022002"><input type="hidden" id="tgl29" value="2026-03-29"><input type="hidden" id="hk29" value="29"><select name="hari" id="hari29" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip30" value="196411141991022002"><input type="hidden" id="tgl30" value="2026-03-30"><input type="hidden" id="hk30" value="29"><select name="hari" id="hari30" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				<td>
+										<input type="hidden" id="nip31" value="196411141991022002"><input type="hidden" id="tgl31" value="2026-03-31"><input type="hidden" id="hk31" value="29"><select name="hari" id="hari31" class="input-mini" style="width:40px;" onChange="getGenerate(this)">
+<option value="" selected="selected"></option>
+<option value="1">P</option>
+<option value="2">S</option>
+<option value="3">M</option>
+<option value="0">D</option>
+<option value="99">L</option>
+</select>										</td>
+																				
+									</tr>
+													</tbody>
+					</table>
+					</div>
+					<div class="row-fluid">
+						<div class="span6" style="padding:5px;">
+							Display 
+							<select name="data_display" id="data_display" class="input-small" onChange="load_url('https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/0');">
+<option value="10" selected="selected">10</option>
+<option value="25">25</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="1317">All</option>
+</select>							records perpage of <b>1317</b> records
+						</div>
+						<div class="span6" style="padding-right:5px;">
+							<div class="pagination" id="pag_suhe" style="margin-top:0;margin-bottom:0;float:right;">
+								<ul class="pagination" style="margin-top:5px;margin-bottom:5px;"><li class="active"><a href="javascript:;">1</a></li><li class=""><a href="https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/10">2</a></li><li class=""><a href="https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/20">3</a></li><li class=""><a href="https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/30">4</a></li><li class=""><a href="https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/10">next &#8250</a></li><li class=""><a href="https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/1310">last &#187;</a></li></ul>							</div>
+						</div>
+					</div>
+<script>
+$(function(){
+   convert_paging();
+   $('[rel="tooltip"]').tooltip();
+});
+
+function convert_paging()
+{
+   $("#pag_suhe").find("a").each(function(i){
+      var thisHref = $(this).attr("href");
+      $(this).prop('href','javascript:void(0)');
+      $(this).prop('rel',thisHref);
+      $(this).bind('click', function(){
+		if(thisHref != 'javascript:;'){
+			load_url(thisHref);
+		}
+         return false;
+      });
+   });
+}
+
+function load_url(theurl)
+{
+	var par4 = $('#data_display').val();
+	
+	loading();
+	$.ajax({
+		url     : theurl,
+		data    : { 
+					'kunkom':$('#kunkom_scr').val(),
+					'kununit':$('#kununit_scr').val(),
+					'unit1':$('#unit1_scr').val(),
+					'unit2':$('#unit2_scr').val(),
+					'unit3':$('#unit3_scr').val(),
+					'status':$('#status_scr').val(),
+					'tgl':$('#tgl_scr').val(),
+					'nama':$('#nama_scr').val(),
+					'display':$('#data_display').val()
+				  },
+		dataType: 'html',
+		type    : 'POST',
+		success : function(data){
+			if(data.substring(4, 13) == 'LOGINFORM'){
+				window.location='https://spot.tangerangkab.go.id/utilitas/kehadiran/shift';
+			}else{
+				$('#list-data').html(data);
+				unloading();
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown) {
+			if (XMLHttpRequest.status === 200) {
+				location.href = 'https://spot.tangerangkab.go.id/utilitas/kehadiran/shift';
+			}else{
+				unloading(); bootbox.alert('Maaf, Terjadi kesalahan dalam sistem!!');
+			}
+		}
+	});
+   return false;
+}
+
+function getGenerate(e)
+{
+	var row = $(e).parent().parent().index();
+	var row1 = $(e).parent().index();
+	var nip = $('#data-tabel > tbody > tr:eq(' + row + ')').find('td:eq('+row1+') input:eq(0)').val();
+	var tgl = $('#data-tabel > tbody > tr:eq(' + row + ')').find('td:eq('+row1+') input:eq(1)').val();
+	var id_hk = $('#data-tabel > tbody > tr:eq(' + row + ')').find('td:eq('+row1+') input:eq(2)').val();
+	var hr = $(e).val();
+	if(hr!=''){
+		$.ajax({
+			url     : 'https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/setHariKerja',
+			data    : { 
+						'nip':nip,
+						'tgl':tgl,
+						'id_hk':id_hk,
+						'hr':hr
+					  },
+			dataType: 'json',
+			type    : 'POST',
+			success : function(data){
+				
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown) {
+				if (XMLHttpRequest.status === 200) {
+					//location.href = 'https://spot.tangerangkab.go.id/utilitas/kehadiran/shift';
+				}else{
+					unloading(); bootbox.alert('Maaf, Terjadi kesalahan dalam sistem!!');
+				}
+			}
+		});
+	}
+}
+</script>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<script>
+function Proses(v,msg,popup)
+{				 
+	loading();	
+	$.ajax({
+		url     : 'https://spot.tangerangkab.go.id/utilitas/kehadiran/shift/pagging/0',
+		data    : { 
+					'kunkom':$('#kunkom_scr').val(),
+					'kununit':$('#kununit_scr').val(),
+					'unit1':$('#unit1_scr').val(),
+					'unit2':$('#unit2_scr').val(),
+					'unit3':$('#unit3_scr').val(),
+					'unit4':$('#unit4_scr').val(),
+					'status':$('#status_scr').val(),
+					'tgl':$('#tgl_scr').val(),
+					'nama':$('#nama_scr').val(),
+					'display':$('#data_display').val()
+				  },
+		dataType: 'html',
+		type    : 'POST',
+		success : function(data){
+			if(data.substring(4, 13) == 'LOGINFORM'){
+				window.location='https://spot.tangerangkab.go.id/utilitas/kehadiran/shift';
+			}else{
+				$('#list-data').html(data);
+				unloading();
+				if(v==1){
+					bootbox.dialog({ 
+						message:msg,
+						buttons : {
+							"success" :
+							 {
+								"label" : "OK",
+								"className" : "btn-sm btn-success",
+								"callback": function() {
+									if(popup!=''){
+										hidePopup(popup);
+									}
+								}
+							}
+						}
+					});
+					
+				}
+			}
+		},
+		error: function(XMLHttpRequest, textStatus, errorThrown) {
+			if (XMLHttpRequest.status === 200) {
+				location.href = 'https://spot.tangerangkab.go.id/utilitas/kehadiran/shift';
+			}else{
+				unloading();
+				bootbox.alert('Maaf, Terjadi kesalahan dalam sistem!!');
+			}
+		}
+	});
+}
+</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="footer">
+				<div class="footer-inner">
+					<div class="footer-content">
+						<span class="bigger-120">
+							SPOT App &copy; 2018 &nbsp; <span style="font-size:11px">v2.1</span>
+													</span>
+					</div>
+				</div>
+			</div>
+			
+			<form id="inputForm4" name="inputForm4" method="post" action="javascript:;" class="form-horizontal" enctype="multipart/form-data">
+				<div class="popup-wrapper" id="popup4">
+					<div class="popup-container4">
+						<div class="modal-header">
+							<span type="button" class="close" data-dismiss="modal" onClick="hidePopup('#popup4');">&times;</span>
+							<h4 class="modal-title" id="head_popup">Judul</h4>
+						</div>  
+						<div class="modal-body" id="input_data4">
+							
+						</div>
+						<div class="modal-footer">
+							<a href="javascript:;" class="btn btn-danger" data-dismiss="modal" onClick="hidePopup('#popup4');">Keluar</a>
+							<button class="btn btn-primary" id="btn_simpan_proses" onClick="simpan_proses();">Simpan</button>
+						</div>
+					</div>
+				</div>
+			</form>
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+			</a>
+		</div>
+		<div id="loads" class="bootbox modal fade bootbox-alert in" role="dialog" tabindex="-1" style="background-color:#000;opacity: 0.5;display:none;">
+				<div style="padding-top:15%;"><center><img src="https://spot.tangerangkab.go.id/assets/img/loading.gif" width="100px"></center></div>
+		</div>
+		
+		<script type="text/javascript">	
+			function getPassword(v)
+			{
+				loading();
+				$("#head_popup").html('Ubah Password');
+				$("#input_data4").html('<div style="position:absolute;left:0;right:0;top:50%;"><center><img src="https://spot.tangerangkab.go.id/assets/img/loading.gif" width="30px"></center></div>');
+				$.ajax({
+					url: 'https://spot.tangerangkab.go.id/home/open_password',
+					dataType: 'html',
+					type    : 'POST',
+					data    :{
+								'user' : v
+							  },
+					success: function(data){
+						$("#input_data4").html(data);
+						showPopup('#popup4');
+						unloading();
+					}
+				});
+				
+			}
+			
+			function getClear(){
+				if($('.unker').data('clicked') == 1){
+					$('.unker').data('clicked',2);
+					return;
+				}else if($('.unker').data('clicked') == 2){
+					if($('.tree').data('clicked') == 1){
+						$('.tree').data('clicked',2);
+						return;
+					}else{
+						$('.tree').data('clicked',0);
+						$('.unker').data('clicked',0);
+						$('.combo-panel').empty();
+						$('.combo-p').css({
+							display : 'none'
+						});
+					}
+				}
+				
+				if($('.unkr').data('clicked') == 1){
+					$('.unkr').data('clicked',2);
+					return;
+				}else if($('.unkr').data('clicked') == 2){
+					if($('.tree').data('clicked') == 1){
+						$('.tree').data('clicked',2);
+						return;
+					}else{
+						$('.tree').data('clicked',0);
+						$('.unkr').data('clicked',0);
+						$('.cp').empty();
+						$('.pn').css({
+							display : 'none'
+						});
+					}
+				}
+			}
+			
+			function startTime() {
+				var today = new Date();
+				var h = today.getHours();
+				var m = today.getMinutes();
+				var s = today.getSeconds();
+				m = checkTime(m);
+				s = checkTime(s);
+				document.getElementById('txt').innerHTML =
+				h + ":" + m + ":" + s;
+				var t = setTimeout(startTime, 500);
+			}
+
+			function checkTime(i) {
+				if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+				return i;
+			}
+		</script>
+<!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4335611,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4335611&101" alt="hit counter" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+	</body>
+</html>

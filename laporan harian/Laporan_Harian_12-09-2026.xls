@@ -1,0 +1,2571 @@
+
+<style>
+table{
+	border-collapse: collapse;
+}
+.text{
+	mso-number-format:"@";
+}
+</style>
+<table  border="0" width=100% style="font-family: Tahoma; font-size: 11pt;">
+    <tr>
+        <td align="center" colspan="8"><b>P E M E R I N T A H &nbsp; K A B U P A T E N</b></td>
+    </tr>
+	<tr>
+        <td align="center" colspan="8"><b>T A N G E R A N G</b></td>
+    </tr>
+	<tr><td colspan="8">&nbsp;</td></tr>
+</table>
+
+<table  border="0" width=100% style="font-family: Tahoma; font-size: 9pt;">
+    <tr>
+        <td align="left" valign="top" width="150px">Unit Kerja</td>
+        <td align="center" valign="top" width="10px">:</td>
+        <td align="left" valign="top">UPTD Rumah Sakit Umum Daerah Tigaraksa - Dinas Kesehatan</td>
+    </tr>
+	<tr>
+        <td align="left" valign="top" width="150px">Hari / Tanggal</td>
+        <td align="center" valign="top" width="10px">:</td>
+        <td align="left" valign="top">Sabtu, 12 September 2026</td>
+    </tr>
+</table>
+
+<table width="100%" border="1" bordercolor="#ccc" style="font-family: Arial; font-size: 9pt; ">
+	<thead>
+		<tr align="center" style="background-color: #e3ece4;" >
+			<td align="center" width="30px" rowspan="2" valign="middle">NO</td>
+			<td align="center" width="200px" rowspan="2" valign="middle">NAMA LENGKAP</td>
+			<td align="center" width="130px" rowspan="2" valign="middle">NIP</td>
+			<td align="center" width="50px" rowspan="2" valign="middle">GOL</td>
+			<td align="center" rowspan="2" width="300px" valign="middle">JABATAN</td>
+			<td align="center" rowspan="1" width="210px" colspan="3" valign="middle">JAM</td>
+			<td align="center" rowspan="2" width="50px" valign="middle">KET.</td>
+		</tr>
+		<tr align="center" style="background-color: #e3ece4;" >
+			<td align="center" width="70px" valign="middle">DATANG</td>
+			<td align="center" width="70px" valign="middle">APEL</td>
+			<td align="center" width="70px" valign="middle">PULANG</td>
+		</tr>
+		<tr align="center" style="background-color: #e3ece4;" >
+			<td align="center" valign="middle">1</td>
+			<td align="center" valign="middle">2</td>
+			<td align="center" valign="middle">3</td>
+			<td align="center" valign="middle">4</td>
+			<td align="center" valign="middle">5</td>
+			<td align="center" valign="middle">6</td>
+			<td align="center" valign="middle">7</td>
+			<td align="center" valign="middle">8</td>
+			<td align="center" valign="middle">9</td>
+		</tr>
+	</thead>
+	<tbody>
+
+		<tr align="left">
+			<td align="center" valign="top">1</td>
+			<td align="left" valign="top">ENDANG SRI RAHAYU, S.Kep.Ners</td>
+			<td align="left" valign="top" class="text">'196702211996072001</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Perawat Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">2</td>
+			<td align="left" valign="top">RISMARITA BANJARNAHOR, SST</td>
+			<td align="left" valign="top" class="text">'196702241992032005</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Bidan Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:00:53</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:19:36</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">3</td>
+			<td align="left" valign="top">MENDA SEBAYANG, SST</td>
+			<td align="left" valign="top" class="text">'196705141993012003</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Bidan Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">4</td>
+			<td align="left" valign="top">Ners. TUTI WAHYUNINGSIH, S.Kep</td>
+			<td align="left" valign="top" class="text">'196809051997022002</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Perawat Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">5</td>
+			<td align="left" valign="top">RINI SUMARNI, SST</td>
+			<td align="left" valign="top" class="text">'196912231993022001</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Bidan Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">6</td>
+			<td align="left" valign="top">MURNALISA DANI, SAP, M.Si</td>
+			<td align="left" valign="top" class="text">'197008301990032001</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Subbagian Umum dan Kepegawaian Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">7</td>
+			<td align="left" valign="top">HANDAYANI, AMK</td>
+			<td align="left" valign="top" class="text">'197101311992032006</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Perawat Penyelia UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:54:14</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:25:23</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">8</td>
+			<td align="left" valign="top">MARJUKI SASTRA WIJAYA, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'197104042025211025</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:42:30</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:26:15</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">9</td>
+			<td align="left" valign="top">MUHAMMAD RIDWAN SURYADINATA</td>
+			<td align="left" valign="top" class="text">'197107161992021001</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Perawat Penyelia UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">10</td>
+			<td align="left" valign="top">drg. SUSI ERLINAWATI</td>
+			<td align="left" valign="top" class="text">'197108012006042008</td>
+			<td align="center" valign="top">IV/c</td>
+			<td align="left" valign="top">Dokter Gigi Ahli Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">11</td>
+			<td align="left" valign="top">RUSBANDI, S.ST</td>
+			<td align="left" valign="top" class="text">'197201171992021002</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Perawat Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">12</td>
+			<td align="left" valign="top">ADE YUDI FIRMANSYAH, S.Kep, MH</td>
+			<td align="left" valign="top" class="text">'197205091995031003</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Seksi Pelayanan Penunjang Nonmedik Pada Bidang Pelayanan Penunjang UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">13</td>
+			<td align="left" valign="top">H. RASIDI, SKM, MM.Kes</td>
+			<td align="left" valign="top" class="text">'197207041992031005</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Bidang Pelayanan Penunjang Pada UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">14</td>
+			<td align="left" valign="top">AHMAD RAPIUDIN, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'197208042025211021</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:09:33</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:12:53</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">15</td>
+			<td align="left" valign="top">SUSAN NILAWATI, SST</td>
+			<td align="left" valign="top" class="text">'197211141992032001</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Bidan Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">16</td>
+			<td align="left" valign="top">AGNES SAPTA DESIYANTI, S.Tr.Keb., Bdn.</td>
+			<td align="left" valign="top" class="text">'197212052019052001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Bidan Mahir</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">17</td>
+			<td align="left" valign="top">HENDRO SUBROTO, SKP, M.A.R.S</td>
+			<td align="left" valign="top" class="text">'197212061997031003</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Bagian Administrasi Umum dan Keuangan Pada UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">18</td>
+			<td align="left" valign="top">SUSILAWATI, S.Tr.Keb.</td>
+			<td align="left" valign="top" class="text">'197303171993012003</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Bidan Penyelia UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">19</td>
+			<td align="left" valign="top">dr. RISNA</td>
+			<td align="left" valign="top" class="text">'197304212003122005</td>
+			<td align="center" valign="top">IV/c</td>
+			<td align="left" valign="top">Dokter Ahli Madya Seksi Pelayanan Medik Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">20</td>
+			<td align="left" valign="top">ADE REZEKI, SST., M.Kes</td>
+			<td align="left" valign="top" class="text">'197306171993032001</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Bidan Madya Seksi Pelayanan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top">14:18:51</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">22:41:02</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">21</td>
+			<td align="left" valign="top">HENNY, S.Kep.,Ns.,M.M.</td>
+			<td align="left" valign="top" class="text">'197308011998032007</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Subbagian Perencanaan dan Keuangan Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">22</td>
+			<td align="left" valign="top">SAHRONI, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'197402102025211014</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:59:32</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:47:32</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">23</td>
+			<td align="left" valign="top">NURWIYAH, A.Md.Keb</td>
+			<td align="left" valign="top" class="text">'197506082007012008</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Bidan Pertama</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">24</td>
+			<td align="left" valign="top">MIMIN HARNIKA, AMK</td>
+			<td align="left" valign="top" class="text">'197602182025212010</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:55:24</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:25:38</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">25</td>
+			<td align="left" valign="top">NS. SRI UMBARAWATI, S.Kep</td>
+			<td align="left" valign="top" class="text">'197606072002122006</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Perawat Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">26</td>
+			<td align="left" valign="top">AAS PATAH HIDAYAT</td>
+			<td align="left" valign="top" class="text">'197609172025211001</td>
+			<td align="center" valign="top">V</td>
+			<td align="left" valign="top">Pengadministrasi Perkantoran Seksi Pelayanan Penunjang Pada Bidang Pelayanan Penunjang UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">27</td>
+			<td align="left" valign="top">SYARIEF OEMAR LUBIS, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'197610032014071001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Pertama</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">28</td>
+			<td align="left" valign="top">EBAH, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'197706102025212021</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:12:30</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">17:47:15</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">29</td>
+			<td align="left" valign="top">LINDA AMIYATI HASAN, S.Kep., Ners</td>
+			<td align="left" valign="top" class="text">'197801152010012004</td>
+			<td align="center" valign="top">III/c</td>
+			<td align="left" valign="top">(Pengurus Barang Pembantu) Perawat Muda</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">30</td>
+			<td align="left" valign="top">dr. ELNI HANDAYANI, M.I.P</td>
+			<td align="left" valign="top" class="text">'197808262007012006</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Bidang Pelayanan Medik Pada UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">31</td>
+			<td align="left" valign="top">HADIJAH, S.Kep., Ns.</td>
+			<td align="left" valign="top" class="text">'197901072014072004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Pertama</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">32</td>
+			<td align="left" valign="top">MUHAMAD ALI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'197901152025211023</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">33</td>
+			<td align="left" valign="top">drg. CHAIRUMI ALFISYAHR, MARS</td>
+			<td align="left" valign="top" class="text">'197903302007012011</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Seksi Mutu dan Standar Pelayanan Medik dan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">34</td>
+			<td align="left" valign="top">dr. MISTUTI ALWIYAH</td>
+			<td align="left" valign="top" class="text">'197904152009022002</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Dokter Ahli Madya Seksi Pelayanan Medik Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">35</td>
+			<td align="left" valign="top">JIMAN, A.Md.A.K</td>
+			<td align="left" valign="top" class="text">'197905192025211020</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">36</td>
+			<td align="left" valign="top">LINDA SILITONGA, S.Kep., Ners</td>
+			<td align="left" valign="top" class="text">'197906272008022001</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Perawat Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">37</td>
+			<td align="left" valign="top">Dr. dr. RADEN ADJENG DEWI MARIA YULIANI, M.Kes</td>
+			<td align="left" valign="top" class="text">'197907172008012017</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Seksi Pelayanan Medik Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">38</td>
+			<td align="left" valign="top">ASTI JUANDANI,  A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'197908062002122003</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Perawat Penyelia UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">39</td>
+			<td align="left" valign="top">IRA SULISTYANINGSIH, S.Kep, M.I.P</td>
+			<td align="left" valign="top" class="text">'197912202007012007</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Kepala Seksi Pelayanan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">40</td>
+			<td align="left" valign="top">H. SUDIN WAHYUDIN, SKM, M.I.P</td>
+			<td align="left" valign="top" class="text">'198003062006041013</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Kepala Subbagian Sarana dan Prasarana Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">41</td>
+			<td align="left" valign="top">dr. JAYADI</td>
+			<td align="left" valign="top" class="text">'198004032025211002</td>
+			<td align="center" valign="top">X</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">42</td>
+			<td align="left" valign="top">IKA HERI SEPTIYANTI, SM</td>
+			<td align="left" valign="top" class="text">'198009012006042011</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">(Bendahara Pengeluaran Pembantu)Penelaah Teknis Kebijakan Subbagian Perencanaan dan Keuangan Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">43</td>
+			<td align="left" valign="top">TUTI ISDAWATI, AMK</td>
+			<td align="left" valign="top" class="text">'198009012025212022</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">44</td>
+			<td align="left" valign="top">EVA SURYANIH, S.Farm, Apt.</td>
+			<td align="left" valign="top" class="text">'198011212010012004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Apoteker Pertama</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">45</td>
+			<td align="left" valign="top">dr. PASARELLA SITANGGANG, M.Kes, Sp.B</td>
+			<td align="left" valign="top" class="text">'198012052006041017</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Dokter Ahli Madya</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">46</td>
+			<td align="left" valign="top">dr. MUHAMMAD FARIDZI FIKRI, M.K.M</td>
+			<td align="left" valign="top" class="text">'198101182009021002</td>
+			<td align="center" valign="top">IV/b</td>
+			<td align="left" valign="top">Direktur UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">47</td>
+			<td align="left" valign="top">LEDI DIANA LUMBAN GAOL, AMK</td>
+			<td align="left" valign="top" class="text">'198103272010012005</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">48</td>
+			<td align="left" valign="top">ERLINA WIDIYANINGRUM, S.Keb.,Bdn.</td>
+			<td align="left" valign="top" class="text">'198103302025212002</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:03:24</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">22:09:44</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">49</td>
+			<td align="left" valign="top">drg. NOVI AGUSTIANTI ANGGRIAWAN</td>
+			<td align="left" valign="top" class="text">'198108092010012009</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Dokter Gigi Ahli Madya</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">50</td>
+			<td align="left" valign="top">dr. ERVIANTI ABAS, Sp.P.K</td>
+			<td align="left" valign="top" class="text">'198111302010012007</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Dokter Ahli Madya</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">51</td>
+			<td align="left" valign="top">dr. TITAH RAHAYU, Sp.K.J.</td>
+			<td align="left" valign="top" class="text">'198112112010012018</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Dokter Ahli Muda - Dokter Spesialis Kodekteran Jiwa UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">52</td>
+			<td align="left" valign="top">NITA SARI SETYOWATI, A.Md.A.K</td>
+			<td align="left" valign="top" class="text">'198203022011012002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Penyelia UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">53</td>
+			<td align="left" valign="top">DYAH JULIASTUTI, S.Farm., Apt</td>
+			<td align="left" valign="top" class="text">'198207062009022006</td>
+			<td align="center" valign="top">IV/a</td>
+			<td align="left" valign="top">Kepala Seksi Pelayanan Penunjang Pada Bidang Pelayanan Penunjang UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">54</td>
+			<td align="left" valign="top">SARI LIDIAWATI, Amd. Kep</td>
+			<td align="left" valign="top" class="text">'198208092025212029</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:41:27</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:20:54</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">55</td>
+			<td align="left" valign="top">ERNA MARIA RUTMAWATY TAMPUBOLON, AM.Kep</td>
+			<td align="left" valign="top" class="text">'198209212025212029</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">19:45:53</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:38:50</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">56</td>
+			<td align="left" valign="top">YENI SURYA RAHMAN, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'198212202010042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil Bidang Pelayanan Medik Pada UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top">14:04:19</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:17:59</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">57</td>
+			<td align="left" valign="top">dr. DJAYA PURNAMA, Sp.An</td>
+			<td align="left" valign="top" class="text">'198303152020121001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">58</td>
+			<td align="left" valign="top">SAADUDIN, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'198305052025211062</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:52:32</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:17:32</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">59</td>
+			<td align="left" valign="top">ARNILIS SUGIARTI, S.Keb</td>
+			<td align="left" valign="top" class="text">'198312232017042003</td>
+			<td align="center" valign="top">II/d</td>
+			<td align="left" valign="top">Bidan Pelaksana Seksi Pelayanan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top">21:06:16</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:20:40</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">60</td>
+			<td align="left" valign="top">ACHMAD ANSORI YANI, S.H</td>
+			<td align="left" valign="top" class="text">'198404042025211002</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Seksi Mutu dan Standar Pelayanan Medik dan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">61</td>
+			<td align="left" valign="top">TRI WAHYU BUNGSUWATI, S.Kep., Ns.</td>
+			<td align="left" valign="top" class="text">'198406222009022005</td>
+			<td align="center" valign="top">III/c</td>
+			<td align="left" valign="top">Perawat Penyelia UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">62</td>
+			<td align="left" valign="top">IDA ROYANI, AMK</td>
+			<td align="left" valign="top" class="text">'198407082025212034</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:29:21</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:30:20</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">63</td>
+			<td align="left" valign="top">dr. RORA ASYULIA, M.K.M</td>
+			<td align="left" valign="top" class="text">'198407232010122001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Madya UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">64</td>
+			<td align="left" valign="top">DAMERIA FARHANI, Am.Keb</td>
+			<td align="left" valign="top" class="text">'198408272025212001</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:14:53</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">22:09:24</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">65</td>
+			<td align="left" valign="top">YANITA SAPTI, A.MF</td>
+			<td align="left" valign="top" class="text">'198409072010012004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Asisten Apoteker Pelaksana Lanjutan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">66</td>
+			<td align="left" valign="top">RISMANIAR OKTAVIANI, S.Gz</td>
+			<td align="left" valign="top" class="text">'198410202010012013</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Nutrisionis Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">67</td>
+			<td align="left" valign="top">dr. FAHAD HASAN, Sp.B.</td>
+			<td align="left" valign="top" class="text">'198410232025041001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Spesialis Bedah Umum Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">68</td>
+			<td align="left" valign="top">dr. WIWIK SULISTIYOWATI</td>
+			<td align="left" valign="top" class="text">'198502242025212034</td>
+			<td align="center" valign="top">X</td>
+			<td align="left" valign="top">Dokter Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">DL</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">69</td>
+			<td align="left" valign="top">dr. HERU PRASETYO, Sp.O.G.</td>
+			<td align="left" valign="top" class="text">'198509112025041001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">70</td>
+			<td align="left" valign="top">SITI NURLAELA, SST</td>
+			<td align="left" valign="top" class="text">'198510022008122002</td>
+			<td align="center" valign="top">III/c</td>
+			<td align="left" valign="top">Pengadministrasi Perkantoran Seksi Pelayanan Medik Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">71</td>
+			<td align="left" valign="top">RUSMIATI HUTAPEA, SKM</td>
+			<td align="left" valign="top" class="text">'198510122010012003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Sanitarian Pelaksana Lanjutan UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">72</td>
+			<td align="left" valign="top">dr. SAVITRI RAHAYU, Sp.OG</td>
+			<td align="left" valign="top" class="text">'198605212015022001</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Dokter Ahli Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">73</td>
+			<td align="left" valign="top">FIKI AYU NINGSIH, A.Md.MIKRM</td>
+			<td align="left" valign="top" class="text">'198606102020122005</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perekam Medis Pelaksana Seksi Pelayanan Medik Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">74</td>
+			<td align="left" valign="top">DEWI KOMALA, AMK</td>
+			<td align="left" valign="top" class="text">'198606152025212046</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">75</td>
+			<td align="left" valign="top">DIAH RURI ANGGITA, SKM</td>
+			<td align="left" valign="top" class="text">'198608152009022004</td>
+			<td align="center" valign="top">III/d</td>
+			<td align="left" valign="top">Tenaga Sanitasi Lingkungan Ahli Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">76</td>
+			<td align="left" valign="top">EPHA KRISTINE NATALIA PASARIBU, Amd.Kep</td>
+			<td align="left" valign="top" class="text">'198612102025212043</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:01:48</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:33:34</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">77</td>
+			<td align="left" valign="top">dr. NUROHTUN HASANAH</td>
+			<td align="left" valign="top" class="text">'198701112025212002</td>
+			<td align="center" valign="top">X</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">78</td>
+			<td align="left" valign="top">MOH. IRFAN, AMK</td>
+			<td align="left" valign="top" class="text">'198703052025211049</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">79</td>
+			<td align="left" valign="top">FITRIA ENDAH UTAMI, SST, MARS</td>
+			<td align="left" valign="top" class="text">'198704272010012002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Bidan Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">80</td>
+			<td align="left" valign="top">ANTONI SISWANDI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'198705252025211071</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:09:34</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:34:20</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">81</td>
+			<td align="left" valign="top">ANGGA HARYADI, A.Md. Kep.</td>
+			<td align="left" valign="top" class="text">'198706282025211004</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">82</td>
+			<td align="left" valign="top">ARIE MISBACH, S.Kom</td>
+			<td align="left" valign="top" class="text">'198710252025211004</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Seksi Mutu dan Standar Pelayanan Medik dan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">83</td>
+			<td align="left" valign="top">DEDE SULAEMAN, S.IP</td>
+			<td align="left" valign="top" class="text">'198712122025211001</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Seksi Pelayanan Penunjang Pada Bidang Pelayanan Penunjang UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">84</td>
+			<td align="left" valign="top">SAIDAH PERMATA SARI, S.Farm., Apt.</td>
+			<td align="left" valign="top" class="text">'198712252020122013</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Apoteker Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">85</td>
+			<td align="left" valign="top">FAIZAL IZMI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'198802122025211051</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:57:36</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:48:05</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">86</td>
+			<td align="left" valign="top">INDAH LUSITASARI, S.T</td>
+			<td align="left" valign="top" class="text">'198803182010012004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Tenaga Sanitasi Lingkungan Ahli Muda Seksi Pelayanan Penunjang Nonmedik Pada Bidang Pelayanan Penunjang UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">87</td>
+			<td align="left" valign="top">SALMA SYARIFAH ELHAITAMI, S.Farm., Apt</td>
+			<td align="left" valign="top" class="text">'198804112020122009</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Apoteker Muda UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">88</td>
+			<td align="left" valign="top">RISKA RAMADHANA, Amd. Kep</td>
+			<td align="left" valign="top" class="text">'198804232025212041</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:54:49</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:32:11</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">89</td>
+			<td align="left" valign="top">ABDUL MUKTI</td>
+			<td align="left" valign="top" class="text">'198806152025211002</td>
+			<td align="center" valign="top">V</td>
+			<td align="left" valign="top">Pengadministrasi Perkantoran Subbagian Umum dan Kepegawaian Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">90</td>
+			<td align="left" valign="top">dr. EDI CHARLEN, Sp.An</td>
+			<td align="left" valign="top" class="text">'198811202025041001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">91</td>
+			<td align="left" valign="top">YULYANTI, AM.Keb</td>
+			<td align="left" valign="top" class="text">'198901062025212003</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:42:05</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:47:51</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">92</td>
+			<td align="left" valign="top">GALIH AMARTEN, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'198902012025211059</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">93</td>
+			<td align="left" valign="top">APRILIA WULANSARI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'198904212019032025</td>
+			<td align="center" valign="top">II/d</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">94</td>
+			<td align="left" valign="top">ALEXAND RAMADHAN, S.E</td>
+			<td align="left" valign="top" class="text">'198904232011011002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Analis Sumber Daya Manusia Aparatur Ahli Pertama Subbagian Umum dan Kepegawaian Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">95</td>
+			<td align="left" valign="top">SRI PARMULATSIH, A.Md.Keb</td>
+			<td align="left" valign="top" class="text">'198909162025212002</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">96</td>
+			<td align="left" valign="top">EKO NARIMO, Amk</td>
+			<td align="left" valign="top" class="text">'198910112025211038</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:08:07</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:28:50</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">97</td>
+			<td align="left" valign="top">dr. NOVA HANDAYANI</td>
+			<td align="left" valign="top" class="text">'198911202025212049</td>
+			<td align="center" valign="top">X</td>
+			<td align="left" valign="top">Dokter Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:23:56</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:14:03</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">98</td>
+			<td align="left" valign="top">ARIF MUNANDAR, AMK</td>
+			<td align="left" valign="top" class="text">'198911242025211037</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:07:54</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:25:46</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">99</td>
+			<td align="left" valign="top">ASGARI, AMK</td>
+			<td align="left" valign="top" class="text">'199004132025211044</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:57:31</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:48:13</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">100</td>
+			<td align="left" valign="top">dr. ARINI NURLELA, Sp.P.D.</td>
+			<td align="left" valign="top" class="text">'199004182025042002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">101</td>
+			<td align="left" valign="top">HERA MEIDAWATI, Amd.Keb</td>
+			<td align="left" valign="top" class="text">'199005042025212001</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:25:50</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:20:54</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">102</td>
+			<td align="left" valign="top">MENIK SUPRAPTI, A.Md. Keb.</td>
+			<td align="left" valign="top" class="text">'199006282025212011</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:51:46</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:31:00</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">103</td>
+			<td align="left" valign="top">MARYAMAH, AMK</td>
+			<td align="left" valign="top" class="text">'199009062025212050</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:04:04</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:17:45</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">104</td>
+			<td align="left" valign="top">Bdn. LATIFAH, S.Keb</td>
+			<td align="left" valign="top" class="text">'199011022025212002</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:24:42</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:20:18</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">105</td>
+			<td align="left" valign="top">FREDI PRATAMA, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199011202025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:57:39</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:00:46</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">106</td>
+			<td align="left" valign="top">ANGGA CAHYA AFFANDI, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199101012025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:53:58</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:28:26</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">107</td>
+			<td align="left" valign="top">Ns. ADY SETYO PRASTOWO, S.Kep</td>
+			<td align="left" valign="top" class="text">'199103052025041001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:06:44</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:32:11</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">108</td>
+			<td align="left" valign="top">DIAN DEVIKA PITRI SITUMORANG, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199103062025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:32:03</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:32:06</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">109</td>
+			<td align="left" valign="top">AFIF IRFAND, A.Md,Kep</td>
+			<td align="left" valign="top" class="text">'199104182025211045</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Pelaksana UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:28:40</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">20:25:28</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">110</td>
+			<td align="left" valign="top">dr. MEYCHA DAFHONSA, Sp.O.G.</td>
+			<td align="left" valign="top" class="text">'199105242025042004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">111</td>
+			<td align="left" valign="top">DYAH ANGGRAINI, AMd.Gz</td>
+			<td align="left" valign="top" class="text">'199107222025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pengelola Layanan Kesehatan Seksi Pelayanan Medik Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">112</td>
+			<td align="left" valign="top">Ns. FRESILIA AYU ANGGANIS, S.Kep</td>
+			<td align="left" valign="top" class="text">'199107302025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">113</td>
+			<td align="left" valign="top">Ns. ANAS ALALA, S.Kep</td>
+			<td align="left" valign="top" class="text">'199108112025041002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">114</td>
+			<td align="left" valign="top">Ns. AGNES MUSTIKA ASMARANI, S.Kep</td>
+			<td align="left" valign="top" class="text">'199108302025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">115</td>
+			<td align="left" valign="top">SULASIYAH, Amd.Kep</td>
+			<td align="left" valign="top" class="text">'199109152025212058</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">116</td>
+			<td align="left" valign="top">WISNU TRI HARNOKO, A.Md.A.K</td>
+			<td align="left" valign="top" class="text">'199109172025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:08:22</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:31:56</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">117</td>
+			<td align="left" valign="top">RIKA NOVIANTI, S.Keb</td>
+			<td align="left" valign="top" class="text">'199109252020122009</td>
+			<td align="center" valign="top">II/d</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:46:57</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:14:37</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">118</td>
+			<td align="left" valign="top">MUHAMAD NUR, Amd.Kep</td>
+			<td align="left" valign="top" class="text">'199109252025211036</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">119</td>
+			<td align="left" valign="top">ASRI SITI LUXYTA, A.Md</td>
+			<td align="left" valign="top" class="text">'199201252025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Asisten Penata Anestesi Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">120</td>
+			<td align="left" valign="top">drg. PUTRI BINANGSRI BARUS</td>
+			<td align="left" valign="top" class="text">'199203182025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Gigi Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">121</td>
+			<td align="left" valign="top">TONY TRISTAN SAPUTRA, S.Kom.</td>
+			<td align="left" valign="top" class="text">'199204132020121007</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Pranata Komputer Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">122</td>
+			<td align="left" valign="top">AGUS SETIAWAN, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199208302025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:33:24</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:28:34</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">123</td>
+			<td align="left" valign="top">ANGGI TRI NOVRIYANTI SIREGAR, A.Md.Gz</td>
+			<td align="left" valign="top" class="text">'199211052025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Nutrisionis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">124</td>
+			<td align="left" valign="top">Apt. NADYA ZAHRAYNY, S.Far</td>
+			<td align="left" valign="top" class="text">'199211302025042002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Apoteker Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">125</td>
+			<td align="left" valign="top">DWI CAHYANI, A.Md.Keb.</td>
+			<td align="left" valign="top" class="text">'199212242025212003</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:47:36</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:08:55</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">126</td>
+			<td align="left" valign="top">SUCI MUSTIKA, SST</td>
+			<td align="left" valign="top" class="text">'199302252025212001</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:01:04</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:12:24</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">127</td>
+			<td align="left" valign="top">TRESALANI UTAMI, A.Md.</td>
+			<td align="left" valign="top" class="text">'199303032025212003</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:17:03</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:21:13</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">128</td>
+			<td align="left" valign="top">Ns. PERMATA RINA NABABAN, S.Kep.</td>
+			<td align="left" valign="top" class="text">'199303142025042004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:10:19</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:24:32</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">129</td>
+			<td align="left" valign="top">FADILAH AULIA AKBAR, A.Md.Rad</td>
+			<td align="left" valign="top" class="text">'199306122025041002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Radiografer Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:56:16</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:14:59</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">130</td>
+			<td align="left" valign="top">DINI YULIANI, A.Md.Keb</td>
+			<td align="left" valign="top" class="text">'199307052025212003</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:05:49</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:27:42</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">131</td>
+			<td align="left" valign="top">HELLIZA WIMANDA, A.Md.Ft.</td>
+			<td align="left" valign="top" class="text">'199307202025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Fisioterapis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">132</td>
+			<td align="left" valign="top">HANA NOVAYANTI, A.Md.K.L</td>
+			<td align="left" valign="top" class="text">'199311022025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Tenaga Sanitasi Lingkungan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">133</td>
+			<td align="left" valign="top">FAIRNIENTA RANIWESTI, S.Kep, Ners</td>
+			<td align="left" valign="top" class="text">'199312112025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:56:55</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:05:14</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">134</td>
+			<td align="left" valign="top">ANGGI PERMANA PUTRA, S.E</td>
+			<td align="left" valign="top" class="text">'199312302025211001</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Subbagian Perencanaan dan Keuangan Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">135</td>
+			<td align="left" valign="top">drg. AINI RAMADHANI</td>
+			<td align="left" valign="top" class="text">'199403032025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Gigi Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">136</td>
+			<td align="left" valign="top">MIFTAHUL FUAD PUTRA UTAMA CG, AMTE</td>
+			<td align="left" valign="top" class="text">'199404092025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Teknisi Elektromedis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">137</td>
+			<td align="left" valign="top">dr. ELIZABETH SYAILENDRASTUTI SUSANTI</td>
+			<td align="left" valign="top" class="text">'199404152025042002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:02:10</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:22:23</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">138</td>
+			<td align="left" valign="top">SITI ROBIAH, Amd.AK</td>
+			<td align="left" valign="top" class="text">'199405182025212051</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:55:14</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:08:22</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">139</td>
+			<td align="left" valign="top">SITI MASHFUPAH, Amd.Kep</td>
+			<td align="left" valign="top" class="text">'199406042025212049</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:07:35</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:31:08</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">140</td>
+			<td align="left" valign="top">YUNITA IKA PANGESTUTI, A.Md.Rad</td>
+			<td align="left" valign="top" class="text">'199406172025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Radiografer Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">141</td>
+			<td align="left" valign="top">DESI KURNIASARI, S.Tr.Keb</td>
+			<td align="left" valign="top" class="text">'199406242025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:02:36</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:32:05</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">142</td>
+			<td align="left" valign="top">IRNA NOER AULIA, S.Tr.Keb.</td>
+			<td align="left" valign="top" class="text">'199408192025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">143</td>
+			<td align="left" valign="top">DHIO GUSTRIANDI, S.Sos.</td>
+			<td align="left" valign="top" class="text">'199408242025211003</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Subbagian Sarana dan Prasarana Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">144</td>
+			<td align="left" valign="top">GIN GIN PURNA GINANJAR, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199409122025211041</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:00:34</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">20:51:53</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">145</td>
+			<td align="left" valign="top">NURUL FADMA DAMAYANTI, A.Md.Keb</td>
+			<td align="left" valign="top" class="text">'199409192025212011</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">146</td>
+			<td align="left" valign="top">Apt. DEWI OKTAVIANA, S.Farm.</td>
+			<td align="left" valign="top" class="text">'199410302025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Apoteker Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">147</td>
+			<td align="left" valign="top">ULFA URRASYIDHAH, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199410312025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">148</td>
+			<td align="left" valign="top">TENI ARIANCA LIGINA, S.Tr.Keb.</td>
+			<td align="left" valign="top" class="text">'199501102025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:57:56</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:41:46</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">149</td>
+			<td align="left" valign="top">AFIFAH WARDINI, A.Md.Rad</td>
+			<td align="left" valign="top" class="text">'199502022025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Radiografer Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:59:51</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:05:26</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">150</td>
+			<td align="left" valign="top">ASEP IRFAN NAZIL RAMDANI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199502172025211008</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">151</td>
+			<td align="left" valign="top">MAYA ERISNA, S.Tr.Keb</td>
+			<td align="left" valign="top" class="text">'199503142025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:58:18</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:42:23</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">152</td>
+			<td align="left" valign="top">PILAILATI SARI, A.Md.Fis.</td>
+			<td align="left" valign="top" class="text">'199504072025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Fisioterapis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">153</td>
+			<td align="left" valign="top">drg. APRIANA NOFITA SARI</td>
+			<td align="left" valign="top" class="text">'199504082025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Gigi Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">154</td>
+			<td align="left" valign="top">NIDA HANIFAH AMATULLOH, S.E.</td>
+			<td align="left" valign="top" class="text">'199505052025212006</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Subbagian Perencanaan dan Keuangan Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">155</td>
+			<td align="left" valign="top">AGUS SUDARYANA, A.Md. Kep.</td>
+			<td align="left" valign="top" class="text">'199506142025211028</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">156</td>
+			<td align="left" valign="top">dr. LORENZA CLARA BERINA</td>
+			<td align="left" valign="top" class="text">'199506152025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">157</td>
+			<td align="left" valign="top">INDAH YULI KARINA, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199507072025212004</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:31:23</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:35:39</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">158</td>
+			<td align="left" valign="top">LIZA HARIYANI KOSASIH, S.Tr.Kep, Ns</td>
+			<td align="left" valign="top" class="text">'199509162025042002</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:11:09</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:31:46</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">159</td>
+			<td align="left" valign="top">EKA FITRIASTUTI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199602232025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">160</td>
+			<td align="left" valign="top">THYSAR MAHYSAR PURBAYU, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199602242025211028</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">161</td>
+			<td align="left" valign="top">ANISA NUR INSANI, A.Md.AK</td>
+			<td align="left" valign="top" class="text">'199605232025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:56:17</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:31:49</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">162</td>
+			<td align="left" valign="top">FAISHAL AFIF, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199607162025211002</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:05:00</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:04:50</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">163</td>
+			<td align="left" valign="top">NOVAL ADHITYA WARDHANA, S.Tr.Kes</td>
+			<td align="left" valign="top" class="text">'199611072025041002</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Fisioterapis Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">164</td>
+			<td align="left" valign="top">ALFA NUR KHASANAH, A.Md.Ft.</td>
+			<td align="left" valign="top" class="text">'199701152025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Fisioterapis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">165</td>
+			<td align="left" valign="top">SHELVA</td>
+			<td align="left" valign="top" class="text">'199704152025212002</td>
+			<td align="center" valign="top">V</td>
+			<td align="left" valign="top">Pengadministrasi Perkantoran Subbagian Perencanaan dan Keuangan Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">166</td>
+			<td align="left" valign="top">REZQY LAILI MUNTHARI, S.KM.</td>
+			<td align="left" valign="top" class="text">'199706082025042003</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Penata Kelola Layanan Kesehatan Seksi Pelayanan Penunjang Nonmedik Pada Bidang Pelayanan Penunjang UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">167</td>
+			<td align="left" valign="top">dr. JENNIFER JANE</td>
+			<td align="left" valign="top" class="text">'199706162025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">168</td>
+			<td align="left" valign="top">NUR AINI, A.Md.Farm.</td>
+			<td align="left" valign="top" class="text">'199707022025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Asisten Apoteker Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">169</td>
+			<td align="left" valign="top">Ns. HARIS RAFIUDDIN PUTRA, S.Kep</td>
+			<td align="left" valign="top" class="text">'199707082025041002</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">170</td>
+			<td align="left" valign="top">Ns. ZAHROTUN NISA, S.Kep</td>
+			<td align="left" valign="top" class="text">'199708292025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:05:00</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:47:56</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">171</td>
+			<td align="left" valign="top">RAJA BOAN TUA SITORBANDOLOK S, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199710032025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">172</td>
+			<td align="left" valign="top">dr. EDMUNDO CAESARIO DWIPUTRA</td>
+			<td align="left" valign="top" class="text">'199710042025041001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:16:46</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:04:45</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">173</td>
+			<td align="left" valign="top">HAMISAH, S.KM</td>
+			<td align="left" valign="top" class="text">'199710162025042002</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Tenaga Sanitasi Lingkungan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">174</td>
+			<td align="left" valign="top">MUHAMAD BERIL FIRDAUS, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199712282025211019</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">175</td>
+			<td align="left" valign="top">NENI OKTAVIANI, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199801112025212021</td>
+			<td align="center" valign="top">VII</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">176</td>
+			<td align="left" valign="top">MUHAMMAD RAE FEBRIAN, S.K.M.</td>
+			<td align="left" valign="top" class="text">'199802122025041001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Tenaga Promosi Kesehatan Dan Ilmu Perilaku Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">177</td>
+			<td align="left" valign="top">dr. FIKRI WALIMAULANA BHAKTI</td>
+			<td align="left" valign="top" class="text">'199802262025041003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:53:11</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:18:11</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">178</td>
+			<td align="left" valign="top">RUTI CATUR JAYANTI, Amd.Keb</td>
+			<td align="left" valign="top" class="text">'199803212025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:56:33</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:15:35</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">179</td>
+			<td align="left" valign="top">Ns. EKA WIRANANDA TALKA, S.Kep</td>
+			<td align="left" valign="top" class="text">'199805042025041001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:48:37</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:32:31</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">180</td>
+			<td align="left" valign="top">Ns. IHSANAT REFI SUHARTI, S.Tr.Kep</td>
+			<td align="left" valign="top" class="text">'199805212025042001</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">181</td>
+			<td align="left" valign="top">UMMI NURINA AMALINA, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199805262025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pengelola Layanan Kesehatan Seksi Pelayanan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">182</td>
+			<td align="left" valign="top">GITA FITRIA DEVI, A.Md.Farm</td>
+			<td align="left" valign="top" class="text">'199806112025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Asisten Apoteker Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">183</td>
+			<td align="left" valign="top">GALUH SAFIRA EVANNI SUENTA, A.Md.Gz</td>
+			<td align="left" valign="top" class="text">'199807142025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Nutrisionis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:39:01</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">16:20:29</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">184</td>
+			<td align="left" valign="top">IVAKOV AKBAR, S.Tr.T.</td>
+			<td align="left" valign="top" class="text">'199809152025041004</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Teknisi Elektromedis Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">185</td>
+			<td align="left" valign="top">apt. NENG SHELLA TRESNASARI, S.Farm</td>
+			<td align="left" valign="top" class="text">'199809172025042006</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Apoteker Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:08:07</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">15:31:43</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">186</td>
+			<td align="left" valign="top">CHIKA ISLAMIATI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199812312025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">14:05:41</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:21:24</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">187</td>
+			<td align="left" valign="top">MUHAMAD LUTFI, S.Kom</td>
+			<td align="left" valign="top" class="text">'199901062025041001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Pranata Komputer Ahli Pertama Subbagian Umum dan Kepegawaian Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">188</td>
+			<td align="left" valign="top">TIARA LITA, S.Kep., Ns</td>
+			<td align="left" valign="top" class="text">'199902182025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:56:37</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:31:52</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">189</td>
+			<td align="left" valign="top">CORNELIA TAMARA AGATHA, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199904232025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:59:17</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:21:01</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">190</td>
+			<td align="left" valign="top">PUTRI ANGGRAENI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199906012025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:58:07</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:30:53</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">191</td>
+			<td align="left" valign="top">GILANG JATI KARTIKO, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'199907072025041002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Asisten Penata Anestesi Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:01:07</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:05:17</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">192</td>
+			<td align="left" valign="top">dr. RAMANDITA DUTA DEWANGGA</td>
+			<td align="left" valign="top" class="text">'199907272025041003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">20:35:42</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:13:52</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">193</td>
+			<td align="left" valign="top">LUTFIATUL HASANAH, A.Md.</td>
+			<td align="left" valign="top" class="text">'199908182025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:53:37</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">14:08:16</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">194</td>
+			<td align="left" valign="top">dr. MUHAMMAD NURHAZIM NUGROHO</td>
+			<td align="left" valign="top" class="text">'199909032025041004</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Dokter Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">195</td>
+			<td align="left" valign="top">TIOFANNY MUKTI PANGESTI, S.Tr.Kes.</td>
+			<td align="left" valign="top" class="text">'199909112025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Fisioterapis Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">196</td>
+			<td align="left" valign="top">ALMA ANNISA, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'199909232025042004</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">197</td>
+			<td align="left" valign="top">Ns. WILDA ATUSNAH, S.Kep</td>
+			<td align="left" valign="top" class="text">'199910122025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">198</td>
+			<td align="left" valign="top">ROSSE ADELIA LUTHFIYYAH, S.Tr.Keb, Bdn</td>
+			<td align="left" valign="top" class="text">'199910242025042007</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Bidan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">199</td>
+			<td align="left" valign="top">RIFKI YADI RAMADAN</td>
+			<td align="left" valign="top" class="text">'199912092025211012</td>
+			<td align="center" valign="top">II/a</td>
+			<td align="left" valign="top">Pengadministrasi Perkantoran Subbagian Sarana dan Prasarana Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">200</td>
+			<td align="left" valign="top">DHINI NUGRAHENI, A.Md.Gz</td>
+			<td align="left" valign="top" class="text">'200003042025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Nutrisionis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">201</td>
+			<td align="left" valign="top">NIA ARDINA, A.Md.Farm.</td>
+			<td align="left" valign="top" class="text">'200003052025042007</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Asisten Apoteker Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:12:48</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:05:35</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">202</td>
+			<td align="left" valign="top">DEWI WULAN SARI</td>
+			<td align="left" valign="top" class="text">'200003312025212009</td>
+			<td align="center" valign="top">II/a</td>
+			<td align="left" valign="top">Pengadministrasi Perkantoran Seksi Pelayanan Keperawatan Pada Bidang Pelayanan Medik UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">203</td>
+			<td align="left" valign="top">Ns MUTIARA KHAEROTUL HIDAYAH, S.Kep</td>
+			<td align="left" valign="top" class="text">'200004132025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:28:27</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:28:27</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">204</td>
+			<td align="left" valign="top">Ns. BETHANIA CINDI MEI RIA SIMANJUNTAK, S.Tr.Kep.</td>
+			<td align="left" valign="top" class="text">'200005142025042003</td>
+			<td align="center" valign="top">III/b</td>
+			<td align="left" valign="top">Perawat Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">205</td>
+			<td align="left" valign="top">M. ALIF ZAYYAN, A.Md.RMIK</td>
+			<td align="left" valign="top" class="text">'200005292025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perekam Medis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">206</td>
+			<td align="left" valign="top">RIKO TAFANI, S.Biotek</td>
+			<td align="left" valign="top" class="text">'200007052025041001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">207</td>
+			<td align="left" valign="top">RAHMI SUGIHARTI, A.Md.Kes</td>
+			<td align="left" valign="top" class="text">'200007252025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Terapis Gigi Dan Mulut Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">208</td>
+			<td align="left" valign="top">ADELLA FRANCISKA SINAGA, AMd. RMIK</td>
+			<td align="left" valign="top" class="text">'200007272025042010</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perekam Medis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">209</td>
+			<td align="left" valign="top">ABIE PERDANA KUSUMA, S.Kom.</td>
+			<td align="left" valign="top" class="text">'200008192025041001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Pranata Komputer Ahli Pertama Subbagian Umum dan Kepegawaian Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">210</td>
+			<td align="left" valign="top">DEWI DENADA, A.Md.Gz.</td>
+			<td align="left" valign="top" class="text">'200009042025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Nutrisionis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">07:19:18</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">16:17:42</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">211</td>
+			<td align="left" valign="top">AHMAD OKKY NURDIANSAH, S.Kom</td>
+			<td align="left" valign="top" class="text">'200010302025211001</td>
+			<td align="center" valign="top">IX</td>
+			<td align="left" valign="top">Penata Layanan Operasional Subbagian Sarana dan Prasarana Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top">07:24:39</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">18:59:43</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">212</td>
+			<td align="left" valign="top">VIRA PIRWANDINI, A.Md.RMIK</td>
+			<td align="left" valign="top" class="text">'200101082025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perekam Medis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">213</td>
+			<td align="left" valign="top">FITRI ANNISA, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'200102202025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">06:57:40</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">15:14:54</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">214</td>
+			<td align="left" valign="top">ERVI NADASARI, A.Md.RMIK</td>
+			<td align="left" valign="top" class="text">'200104182025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perekam Medis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">215</td>
+			<td align="left" valign="top">WIDIA JUNIARTI, A.Md.Kes.</td>
+			<td align="left" valign="top" class="text">'200106242025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">216</td>
+			<td align="left" valign="top">BELLA YULANDA, S.Tr.Kes</td>
+			<td align="left" valign="top" class="text">'200107222025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Radiografer Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">217</td>
+			<td align="left" valign="top">AZZYA OCTAVIANI, S.Tr.Kes</td>
+			<td align="left" valign="top" class="text">'200110042025042001</td>
+			<td align="center" valign="top">III/a</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Ahli Pertama UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:53:38</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:10:45</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">218</td>
+			<td align="left" valign="top">TIARA SHIFA AZZAHRA, A.Md.Keb.</td>
+			<td align="left" valign="top" class="text">'200111062025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:41:15</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:24:16</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">219</td>
+			<td align="left" valign="top">FADIA ASYA ZAHARANI, A.Md.Ak.</td>
+			<td align="left" valign="top" class="text">'200111162025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Arsiparis Terampil Subbagian Umum dan Kepegawaian Pada Bagian Administrasi Umum dan Keuangan UPTD Rumah Sakit Umum Daerah Tigaraksa Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">220</td>
+			<td align="left" valign="top">DESTI ELEN SAFITRI, A.Md.Kes.</td>
+			<td align="left" valign="top" class="text">'200112122025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Terapis Gigi Dan Mulut Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">221</td>
+			<td align="left" valign="top">CINDI TIANA HARAHAP, A.Md.Kep.</td>
+			<td align="left" valign="top" class="text">'200112232025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">222</td>
+			<td align="left" valign="top">KHOIRUNNISA, A.Md.Keb</td>
+			<td align="left" valign="top" class="text">'200201142025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Bidan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">21:35:52</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">07:27:50</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">223</td>
+			<td align="left" valign="top">DELIA LISTRIANA GALIH HIDAYAT, A.Md.Kes</td>
+			<td align="left" valign="top" class="text">'200202132025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">224</td>
+			<td align="left" valign="top">YUGA MAULANA AKBAR, A.Md. T.</td>
+			<td align="left" valign="top" class="text">'200202182025041001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Teknisi Elektromedis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">225</td>
+			<td align="left" valign="top">WINDI LAURA PUTRI, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'200208172025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">226</td>
+			<td align="left" valign="top">LUTHFIAH HUSNUL KHOTIMAH, A.Md.Kes.</td>
+			<td align="left" valign="top" class="text">'200209272025042002</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Pranata Laboratorium Kesehatan Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top">13:59:57</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">21:10:39</td>
+			<td align="center" valign="top"></td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">227</td>
+			<td align="left" valign="top">PUTRI NADA HAYATUL ISMA, A.Md.Kep</td>
+			<td align="left" valign="top" class="text">'200210022025042001</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perawat Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">C</td>
+		</tr>
+		<tr align="left">
+			<td align="center" valign="top">228</td>
+			<td align="left" valign="top">ERIKA DWI HABSARI, A.Md.Kes</td>
+			<td align="left" valign="top" class="text">'200301132025042003</td>
+			<td align="center" valign="top">II/c</td>
+			<td align="left" valign="top">Perekam Medis Terampil UPTD Rumah Sakit Umum Daerah Tigaraksa Pada Dinas Kesehatan</td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top"></td>
+			<td align="center" valign="top">LIBUR</td>
+		</tr></tbody>
+</table>

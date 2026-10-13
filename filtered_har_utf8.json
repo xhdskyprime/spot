@@ -1,0 +1,38 @@
+﻿[
+    {
+        "url":  "https://spot.tangerangkab.go.id/kedinasan/piket/open_form",
+        "method":  "POST",
+        "postData":  "id=\u0026view="
+    },
+    {
+        "url":  "https://spot.tangerangkab.go.id/home/cari_pegawai/0",
+        "method":  "POST",
+        "postData":  "cari=\u0026nipp=\u0026display=10\u0026noncek=1\u0026biro=031183000000000"
+    },
+    {
+        "url":  "https://spot.tangerangkab.go.id/home/cari_pegawai/0",
+        "method":  "POST",
+        "postData":  "biro=031183000000000\u0026cari=MUHAMAD+LUTFI%2C+S.Kom\u0026display=10\u0026nipp=\u0026manual=\u0026noncek=1"
+    },
+    {
+        "url":  "https://spot.tangerangkab.go.id/kedinasan/piket/getabsen",
+        "method":  "POST",
+        "postData":  "tgl=10%2F02%2F2026\u0026nip=199901062025041001"
+    },
+    {
+        "url":  "https://a.mrktmtrcs.net/a",
+        "method":  "POST",
+        "postData":  "{\"l\":{\"d\":\"spot.tangerangkab.go.id\",\"p\":\"/kedinasan/piket\",\"s\":\"\",\"h\":\"\"},\"d\":{\"f\":\"d\",\"o\":\"windows\",\"ov\":\"10\",\"b\":\"chrome\",\"bv\":\"145\"},\"g\":\"en\",\"s\":\"ewpeod7yiw.1772609448\",\"e\":[{\"t\":20,\"n\":\"pv\",\"c\":1}]}"
+    },
+    {
+        "url":  "https://spot.tangerangkab.go.id/kedinasan/piket/simpan",
+        "method":  "POST",
+        "postData":  "------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"nama\"\r\n\r\n199901062025041001 - MUHAMAD LUTFI, S.Kom\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"nip\"\r\n\r\n199901062025041001\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"id\"\r\n\r\n\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"tanggal_bp\"\r\n\r\n10/02/2026\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"masuk\"\r\n\r\n2026-02-10 07:50:48\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"telat\"\r\n\r\n0:00:00\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"keluar\"\r\n\r\n2026-02-10 16:06:11\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"cepat\"\r\n\r\n0:00:00\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"tanggal\"\r\n\r\n10/02/2026\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ\r\nContent-Disposition: form-data; name=\"keterangan\"\r\n\r\n\r\n------WebKitFormBoundary3kqXBA53WaG2iwRZ--\r\n"
+    },
+    {
+        "url":  "https://spot.tangerangkab.go.id/kedinasan/piket/pagging/0",
+        "method":  "POST",
+        "postData":  "kunkom=11\u0026kununit=83\u0026unit1=\u0026unit2=\u0026unit3=\u0026unit4=\u0026bulan=3\u0026tahun=2026\u0026status=1\u0026nama="
+    }
+]
+

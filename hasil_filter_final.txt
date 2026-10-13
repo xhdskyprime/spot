@@ -1,0 +1,73 @@
+--- RINGKASAN TEMUAN ---
+
+FILE: Laporan_197402102025211014_March_2026.pdf
+  - PSW Only/Total (No BP): Jumat, 20 Maret 2026, Sabtu, 21 Maret 2026
+
+FILE: Laporan_198009012025212022_March_2026.pdf
+  - PSW & TM (No BP): Jumat, 20 Maret 2026
+  - PSW Only/Total (No BP): Kamis, 19 Maret 2026, Jumat, 20 Maret 2026
+
+FILE: Laporan_198312232017042003_March_2026.pdf
+  - PSW & TM (No BP): Kamis, 19 Maret 2026
+  - PSW Only/Total (No BP): Kamis, 19 Maret 2026
+
+FILE: Laporan_198408272025212001_March_2026.pdf
+  - PSW & TM (No BP): Minggu, 22 Maret 2026, Senin, 23 Maret 2026
+  - PSW Only/Total (No BP): Minggu, 22 Maret 2026, Senin, 23 Maret 2026
+
+FILE: Laporan_198502242025212034_March_2026.pdf
+  - PSW Only/Total (No BP): Selasa, 10 Maret 2026, Selasa, 31 Maret 2026
+
+FILE: Laporan_198701112025212002_March_2026.pdf
+  - PSW Only/Total (No BP): Selasa, 10 Maret 2026
+
+FILE: Laporan_198910112025211038_March_2026.pdf
+  - PSW Only/Total (No BP): Rabu, 18 Maret 2026, Kamis, 19 Maret 2026
+
+FILE: Laporan_199006282025212011_March_2026.pdf
+  - PSW & TM (No BP): Senin, 23 Maret 2026
+  - PSW Only/Total (No BP): Senin, 23 Maret 2026
+
+FILE: Laporan_199104182025211045_March_2026.pdf
+  - PSW Only/Total (No BP): Minggu, 1 Maret 2026, Kamis, 19 Maret 2026, Selasa, 24 Maret 2026
+
+FILE: Laporan_199108112025041002_March_2026.pdf
+  - PSW Only/Total (No BP): Kamis, 19 Maret 2026
+
+FILE: Laporan_199109152025212058_March_2026.pdf
+  - PSW & TM (No BP): Senin, 23 Maret 2026
+  - PSW Only/Total (No BP): Senin, 23 Maret 2026, Selasa, 24 Maret 2026
+
+FILE: Laporan_199303032025212003_March_2026.pdf
+  - PSW & TM (No BP): Senin, 23 Maret 2026
+  - PSW Only/Total (No BP): Jumat, 20 Maret 2026, Senin, 23 Maret 2026
+
+FILE: Laporan_199312302025211001_March_2026.pdf
+  - PSW & TM (No BP): Kamis, 19 Maret 2026
+  - PSW Only/Total (No BP): Kamis, 19 Maret 2026, Jumat, 20 Maret 2026
+
+FILE: Laporan_199406242025042001_March_2026.pdf
+  - PSW & TM (No BP): Minggu, 22 Maret 2026
+  - PSW Only/Total (No BP): Minggu, 22 Maret 2026, Senin, 23 Maret 2026
+
+FILE: Laporan_199605232025042002_March_2026.pdf
+  - PSW & TM (No BP): Selasa, 24 Maret 2026
+  - PSW Only/Total (No BP): Selasa, 24 Maret 2026, Kamis, 26 Maret 2026
+
+FILE: Laporan_199712282025211019_March_2026.pdf
+  - PSW & TM (No BP): Sabtu, 28 Maret 2026
+  - PSW Only/Total (No BP): Sabtu, 28 Maret 2026, Minggu, 29 Maret 2026
+
+FILE: Laporan_199902182025042003_March_2026.pdf
+  - PSW Only/Total (No BP): Sabtu, 21 Maret 2026, Minggu, 22 Maret 2026, Selasa, 24 Maret 2026
+
+FILE: Laporan_199909032025041004_March_2026.pdf
+  - PSW Only/Total (No BP): Sabtu, 28 Maret 2026
+
+FILE: Laporan_200201142025042002_March_2026.pdf
+  - PSW & TM (No BP): Selasa, 24 Maret 2026
+  - PSW Only/Total (No BP): Selasa, 24 Maret 2026
+
+FILE: Laporan_200208172025042002_March_2026.pdf
+  - PSW & TM (No BP): Jumat, 20 Maret 2026, Sabtu, 21 Maret 2026
+  - PSW Only/Total (No BP): Jumat, 20 Maret 2026, Sabtu, 21 Maret 2026
